@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #dadada;
+    box-shadow: 0 5px 10px grey ;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navigation li{
+    list-style: none;
+    padding: 0 30px;
+}
+
+.search{
+    display: flex;
+}
+
+.wishlist{
+    display: flex;
+    gap: 30px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #030b50;
+    transition: 0.3s;
+}
+
+.navigation li a:hover{
+    border: none;
+    border-radius: 15px;
+    background-color: #626dca;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.navigation li a.active{
+    color: orange;
+    font-size: 18px;
+}
+
+
+#search-img{
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background: #92b2c4;
+    padding: 5px;
+}
+
+#search-text{
+    border: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer button{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background: #aab7b8;
+}
+
+.footer-heading{
+    background: #dadada;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 120px;
+}
+
+.footer-items{
+    padding-top: 20px;
+}
+
+.footer-items ul li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+.iphone16-collections{
+    background: white;
+    margin: 5px 40px;
+    padding: 50px 20px;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.iphone16-btn{
+    display: flex;
+    justify-content: start;
+    padding: 40px;
+    gap: 50px;
+    margin-left: 15px;
+}
+
+.iphone16-btn1{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: orange;
+    cursor: pointer;
+
+}
+
+.iphone16-btn1:hover{
+    color: #111;
+}
+
+.iphone16-btn2{
+    background: #ec7063;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.iphone16-btn2:hover{
+    border: none;
+    background-color: #626dca;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.003);
+}

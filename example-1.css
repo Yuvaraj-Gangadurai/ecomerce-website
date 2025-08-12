@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    background-color: #909497;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #dadada;
+    box-shadow: 0 5px 10px grey ;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navigation li{
+    list-style: none;
+    padding: 0 30px;
+}
+
+.search{
+    display: flex;
+}
+
+.wishlist{
+    display: flex;
+    gap: 30px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #030b50;
+    transition: 0.3s;
+}
+
+.navigation li a:hover{
+    border: none;
+    border-radius: 15px;
+    background-color: #626dca;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.navigation li a.active{
+    color: orange;
+    font-size: 18px;
+}
+
+
+#search-img{
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background: #92b2c4;
+    padding: 5px;
+}
+
+#search-text{
+    border: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Main category button */
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Dropdown content container */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateX(-40%);
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  /* Show dropdown content on hover */
+  .dropdown:hover .dropdown-content {
+    display: flex;
+  }
+
+  /* Column for each gender */
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  /* Column titles */
+  .column h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  /* Links inside dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Hover effect for dropdown links */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }

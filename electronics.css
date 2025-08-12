@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    background-color: #909497;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #dadada;
+    box-shadow: 0 5px 10px grey ;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navigation li{
+    list-style: none;
+    padding: 0 30px;
+}
+
+.search{
+    display: flex;
+}
+
+.wishlist{
+    display: flex;
+    gap: 30px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #030b50;
+    transition: 0.3s;
+}
+
+.navigation li a:hover{
+    border: none;
+    border-radius: 15px;
+    background-color: #626dca;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.navigation li a.active{
+    color: orange;
+    font-size: 18px;
+}
+
+
+#search-img{
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background: #92b2c4;
+    padding: 5px;
+}
+
+#search-text{
+    border: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+
+.footer button{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background: #aab7b8;
+}
+
+.footer-heading{
+    background: #dadada;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 120px;
+}
+
+.footer-items{
+    padding-top: 20px;
+}
+
+.footer-items ul li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+.item-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    background: white;
+    box-shadow: 0 5px 10px grey ;
+    z-index: 999;
+}
+
+.item-list img{
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 200px;
+    min-height: 100px;
+    border-radius: 30px;
+    transition: 0.2s;
+    
+    
+}
+
+.item-list img:hover{
+    transform: scale(1.2);
+    box-shadow: 25px 25px 50px #909497;
+}
+
+.item-list h5{
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+.items h5{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.electronics-item{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 170px;
+    padding-bottom: 80px;
+   
+    background: linear-gradient(to top ,#b3b6b7 ,#626dca );
+    border: 1px solid;
+    
+    
+}
+
+.electronics-text h3{
+    font-size: 30px;
+}
+
+
+
+.offer{
+    font-weight: 800px;
+    font-size: 50px;
+    color: #E6E8FA;
+    padding-top: 10px;
+}
+
+.electronics-text button{
+    border: none;
+    padding: 8px;
+    border-radius: 15px;
+    margin: 30px;
+    font-weight: 500;
+    transition: 0.5s;
+    margin-left: 100px;
+    color: #111;
+    background: #D8D2C2;
+    cursor: pointer;
+}
+
+.electronics-text button:hover{
+    background-color: #111;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.Laptops{
+    background: linear-gradient(to bottom ,#b3b6b7 ,#626dca);
+
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.listof-laptops{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    gap: 25px;
+}
+
+.Hp{
+    background: white;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.listof-laptops button{
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+    background-color: #626dca;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.listof-laptops button:hover{
+    transform: scale(1.1);
+    background-color: #111;
+    
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Hp p{
+    font-size: 13.5px;
+    font-weight: 600;
+    color: grey;
+}
+
+.Hp .font-green{
+    font-size: 11.5px;
+    font-weight: 500px;
+    color: green;
+    padding: 5px 0;
+}
+
+.Hp h4{
+    margin-top: 30px;
+    
+}
+
+.Hp img{
+    transition: 0.3s;
+}
+
+.Hp img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
